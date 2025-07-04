@@ -7855,6 +7855,19 @@ python3-openai-pip:
   ubuntu:
     pip:
       packages: [openai]
+python3-openai-whisper-pip:
+  debian:
+    pip:
+      packages: [openai-whisper]
+  fedora:
+    pip:
+      packages: [openai-whisper]
+  rhel:
+    pip:
+      packages: [openai-whisper]
+  ubuntu:
+    pip:
+      packages: [openai-whisper]      
 python3-opencv:
   debian: [python3-opencv]
   fedora: [python3-opencv]
@@ -8351,6 +8364,19 @@ python3-psutil:
   rhel: ['python%{python3_pkgversion}-psutil']
   slackware: [psutil]
   ubuntu: [python3-psutil]
+python3-pvporcupine-pip:
+  debian:
+    pip:
+      packages: [pvporcupine]
+  fedora:
+    pip:
+      packages: [pvporcupine]
+  osx:
+    pip:
+      packages: [pvporcupine]
+  ubuntu:
+    pip:
+      packages: [pvporcupine]  
 python3-psycopg2:
   debian: [python3-psycopg2]
   fedora: [python3-psycopg2]
