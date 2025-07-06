@@ -9271,6 +9271,19 @@ python3-pytrinamic-pip:
   ubuntu:
     pip:
       packages: [pytrinamic]
+python3-pyttsx3-pip:
+  debian:
+    pip:
+      packages: [pyttsx3]
+  fedora:
+    pip:
+      packages: [pyttsx3]
+  rhel:
+    pip:
+      packages: [pyttsx3]
+  ubuntu:
+    pip:
+      packages: [pyttsx3]       
 python3-pyubx2-pip:
   '*':
     pip:
