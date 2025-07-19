@@ -1663,6 +1663,16 @@ python-gTTS-pip:
   ubuntu:
     pip:
       packages: [gTTS]
+python-gc9d01-library-pip:
+  debian:
+    pip:
+      packages: [gc9d01-library]
+  fedora:
+    pip:
+      packages: [gc9d01-library]
+  ubuntu:
+    pip:
+      packages: [gc9d01-library]
 python-gcloud-pip:
   ubuntu:
     pip:
