@@ -8190,6 +8190,19 @@ python3-pip:
   opensuse: [python3-pip]
   rhel: [python3-pip]
   ubuntu: [python3-pip]
+python3-piper-tts-pip:
+  debian:
+    pip:
+      packages: [piper-tts]
+  fedora:
+    pip:
+      packages: [piper-tts]
+  rhel:
+    pip:
+      packages: [piper-tts]
+  ubuntu:
+    pip:
+      packages: [piper-tts]      
 python3-pipython-pip:
   '*':
     pip:
