@@ -2853,20 +2853,7 @@ python-pip:
   nixos: [pythonPackages.pip]
   openembedded: ['${PYTHON_PN}-pip@meta-python']
   opensuse: [python2-pip]
-  ubuntu: [python-pip]
-python-piper:
-  debian:
-    pip:
-      packages: [piper-tts]
-  fedora:
-    pip:
-      packages: [piper-tts]
-  osx:
-    pip:
-      packages: [piper-tts]
-  ubuntu:
-    pip:
-      packages: [piper-tts]  
+  ubuntu: [python-pip] 
 python-pixel-ring-pip:
   debian:
     pip:
@@ -8190,6 +8177,19 @@ python3-pip:
   opensuse: [python3-pip]
   rhel: [python3-pip]
   ubuntu: [python3-pip]
+python3-piper:
+  debian:
+    pip:
+      packages: [piper-tts]
+  fedora:
+    pip:
+      packages: [piper-tts]
+  osx:
+    pip:
+      packages: [piper-tts]
+  ubuntu:
+    pip:
+      packages: [piper-tts]   
 python3-pipython-pip:
   '*':
     pip:
