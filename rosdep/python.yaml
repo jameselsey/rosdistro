@@ -2854,6 +2854,19 @@ python-pip:
   openembedded: ['${PYTHON_PN}-pip@meta-python']
   opensuse: [python2-pip]
   ubuntu: [python-pip]
+python-piper:
+  debian:
+    pip:
+      packages: [piper-tts]
+  fedora:
+    pip:
+      packages: [piper-tts]
+  osx:
+    pip:
+      packages: [piper-tts]
+  ubuntu:
+    pip:
+      packages: [piper-tts]  
 python-pixel-ring-pip:
   debian:
     pip:
