@@ -332,7 +332,7 @@ opcua-pip:
 openwakeword-pip:
   ubuntu:
     pip:
-      packages: [openwakeword]      
+      packages: [openwakeword>=0.6.0]      
 paramiko:
   alpine: [py-paramiko]
   arch: [python2-paramiko]
