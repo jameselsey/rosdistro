@@ -11193,6 +11193,10 @@ sphinxcontrib-bibtex-pip:
   ubuntu:
     pip:
       packages: [sphinxcontrib-bibtex]
+strands:
+  ubuntu:
+    pip:
+      packages: [strands-agents,strands-agents-tools]
 svgpathtools-pip:
   ubuntu:
     pip:
