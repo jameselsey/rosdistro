@@ -11193,7 +11193,7 @@ sphinxcontrib-bibtex-pip:
   ubuntu:
     pip:
       packages: [sphinxcontrib-bibtex]
-strands:
+strands-agents:
   ubuntu:
     pip:
       packages: [strands-agents]
